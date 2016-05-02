@@ -18,4 +18,8 @@ public class NoodlesServlet extends HttpServlet {
         String noodles = Kitchen.makeNoodles(vegetable);
         writer.println(noodles);
     }
+    private void Function1(String s){
+        //This is a new function
+        System.out.println(s)
+    }
 }
