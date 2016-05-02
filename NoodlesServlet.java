@@ -18,9 +18,12 @@ public class NoodlesServlet extends HttpServlet {
         String noodles = Kitchen.makeNoodles(vegetable);
         writer.println(noodles);
     }
+<<<<<<< HEAD
     
     private void Function1(String s){
     	//This is a new function
     	System.out.println(s);
     }
+=======
+>>>>>>> bbcb24411ef6337438183420e3cc06ae7de3e87d
 }
